@@ -21,13 +21,13 @@ Local directory structure should be like the following:
       - these will be rewritten after original_experiment.ipynb has run.
 
 DOWNLOAD INSTRUCTIONS:
-- MIMIC III dataset is required for this code to run successfully. It will have to be downloaded separately from https://physionet.org/content/mimiciii/1.
+- MIMIC III dataset is required for this code to run successfully. It will have to be downloaded separately from [here](https://physionet.org/content/mimiciii/1.4/).
 - Clone repository and organize like the structure above.
 
 RUN PROCEDURES
 1. MIMIC
-  1. Run original_preprocessing.ipynb, which will output two .csv files that original_experiment.ipynb will use.
-  2. Run original_experiment.ipynb, which will output classification results.
-  3. Run analysis_groups.ipynb, which will output MIMIC results. There will be errors on certain cells, so the complete process must be done MANUALLY.
+   1. Run original_preprocessing.ipynb, which will output two .csv files that original_experiment.ipynb will use.
+   2. Run original_experiment.ipynb, which will output classification results.
+   3. Run analysis_groups.ipynb, which will output MIMIC results. There will be errors on certain cells, so the complete process must be done MANUALLY.
 2. SYNTHETIC
-  1. Run synthetic.ipynb, which will output synthetic data results.
+   1. Run synthetic.ipynb, which will output synthetic data results.
