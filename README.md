@@ -8,17 +8,17 @@ DIRECTORY STRUCTURE:
 - Local directory structure should be like the following:
 
 - project_folder
-   -- code
-      --- original_preprocessing.ipynb (preprocesses MIMIC info)
-      --- original_experiment.ipynb (splits, imputes, and runs predictive analysis on processed MIMIC dataset)
-      --- analysis_groups.ipynb (displays metrics from MIMIC predictive analysis results)
-      --- synthetic.ipynb (creates synthetic dataset, imputes, and runs predictive simulation)
-      --- mimic_utils.py (functions and classes that mimic scripts use)
-      --- synthetic_utils.py (functions and classes that synthetic script uses)
-   -- data
-      --- unzipped MIMIC .csv files
-   -- results
-      --- these will be rewritten after original_experiment.ipynb has run.
+   - code
+      - original_preprocessing.ipynb (preprocesses MIMIC info)
+      - original_experiment.ipynb (splits, imputes, and runs predictive analysis on processed MIMIC dataset)
+      - analysis_groups.ipynb (displays metrics from MIMIC predictive analysis results)
+      - synthetic.ipynb (creates synthetic dataset, imputes, and runs predictive simulation)
+      - mimic_utils.py (functions and classes that mimic scripts use)
+      - synthetic_utils.py (functions and classes that synthetic script uses)
+   - data
+      - unzipped MIMIC .csv files
+   - results
+      - these will be rewritten after original_experiment.ipynb has run.
 
 DOWNLOAD INSTRUCTIONS:
 - MIMIC III dataset is required for this code to run successfully. It will have to be downloaded separately from https://physionet.org/content/mimiciii/1.
