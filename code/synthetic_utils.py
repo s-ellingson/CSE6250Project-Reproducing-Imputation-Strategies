@@ -137,7 +137,7 @@ def generate_data_linear_shift(majority_size, ratio, class_balance = 0.5, seed =
 
     concatenation = np.concatenate([majority, minority])
     labels = np.concatenate([labels_maj, labels_min])
-    protected =  np.concatenate([np.full(len(labels_maj), False), np.full(len(labels_min), True)])
+    protected = np.concatenate([np.full(len(labels_maj), False), np.full(len(labels_min), True)])
 
     sort = np.arange(len(concatenation))
     np.random.shuffle(sort)
